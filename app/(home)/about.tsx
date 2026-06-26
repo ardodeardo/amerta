@@ -43,8 +43,7 @@ function About() {
                 <br />
                 <br />
                 Didukung kompetensi <strong>Dry Needling</strong>,{" "}
-                <strong>Manual Therapy</strong>, dan
-                <strong>Electrotherapy</strong>, setiap penanganan disesuaikan
+                <strong>Manual Therapy</strong>, dan <strong>Electrotherapy</strong>, setiap penanganan disesuaikan
                 dengan kebutuhan setiap pasien.
               </p>
             </div>
