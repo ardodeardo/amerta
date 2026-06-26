@@ -19,7 +19,8 @@ function Service() {
             </h2>
 
             <p className="text-[#123331] text-base md:text-lg leading-[160%] mt-4">
-              Membantu mengurangi nyeri, memulihkan gerak, <br />
+              Membantu mengurangi nyeri, memulihkan gerak,{" "}
+              <br className="hidden md:block" />
               dan mendukung aktivitas sehari-hari.
             </p>
           </div>

@@ -53,8 +53,8 @@ function Callback() {
               <MapPin size={18} className="text-white mt-1"></MapPin>
               <p className="text-white/80 text-sm md:text-base leading-[160%] font-semibold">
                 Jl. Makmur Jl. Bahagia 1 No.2 Blok B10,
-                <br /> RT.006/RW.003, Gebang Raya,
-                <br /> Kec. Periuk, Kota Tangerang, Banten 15132
+                <br /> RT.006/RW.003, Gebang Raya, Kec. Periuk,
+                <br /> Kota Tangerang, Banten 15132
               </p>
             </Link>
           </div>
