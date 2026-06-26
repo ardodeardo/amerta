@@ -40,7 +40,8 @@ function Hero() {
 
             <p className="text-white text-base md:text-lg leading-[160%]">
               Pendampingan fisioterapi personal untuk membantu mengurangi nyeri,
-              memulihkan gerak, dan mendukung aktivitas sehari-hari.
+              memulihkan gerak, dan mendukung <br className="hidden md:block" />{" "}
+              aktivitas sehari-hari.
             </p>
           </div>
 

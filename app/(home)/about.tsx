@@ -37,13 +37,15 @@ function About() {
 
             <div>
               <p className="text-[#123331] text-base md:text-lg leading-[160%]">
-                Berpengalaman lebih dari 5 tahun di bidang fisioterapi, Amelia
-                Hesti Cahyani memberikan penanganan yang personal sesuai
-                kebutuhan setiap pasien.
+                <strong> Amelia Hesti Cahyani</strong> adalah fisioterapis
+                dengan pengalaman lebih dari <strong>5 tahun</strong> dalam
+                menangani berbagai kondisi nyeri, cedera, dan rehabilitasi.
                 <br />
                 <br />
-                Didukung kompetensi Dry Needling, Manual Therapy, dan
-                Electrotherapy untuk membantu proses pemulihan yang optimal.
+                Didukung kompetensi <strong>Dry Needling</strong>,{" "}
+                <strong>Manual Therapy</strong>, dan
+                <strong>Electrotherapy</strong>, setiap penanganan disesuaikan
+                dengan kebutuhan setiap pasien.
               </p>
             </div>
           </div>

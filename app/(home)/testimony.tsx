@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Fragment } from "react/jsx-runtime";
 
-import { HandHeart } from "lucide-react";
+import { MessageCircleHeart } from "lucide-react";
 
 function Testimony() {
   return (
@@ -20,8 +20,7 @@ function Testimony() {
             </h2>
 
             <p className="text-[#123331] text-base md:text-lg leading-[160%] mt-4">
-              Membantu mengurangi nyeri, memulihkan gerak, <br />
-              dan mendukung aktivitas sehari-hari.
+              Kisah pemulihan dari para pasien kami.
             </p>
           </div>
 
@@ -127,7 +126,7 @@ function Testimony() {
                 <Fragment key={index}>
                   <div className="p-4 md:p-5 bg-[#F6FAF8] border border-[#154E48]/12 rounded-[24px] space-y-3 min-w-[300px] w-[300px]">
                     <span className="grid place-content-center bg-[#E7F4F0] size-10 rounded-lg">
-                      <HandHeart></HandHeart>
+                      <MessageCircleHeart></MessageCircleHeart>
                     </span>
 
                     <div className="space-y-1">
