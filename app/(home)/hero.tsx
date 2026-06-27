@@ -31,7 +31,7 @@ function Hero() {
           <div className="space-y-4">
             <span className="rounded-full border border-[#0B6F68]/12 w-fit p-[10px] px-3 flex items-center justify-between gap-[6px] bg-[#E7F4F0] text-xs font-bold text-[#123331]">
               <Activity size={12}></Activity>{" "}
-              <span>Fisioterapi & Rehabilitasi</span>
+              <span>Partner Perjalanan Rehabilitasimu</span>
             </span>
 
             <h1 className="text-white font-bold text-[36px] md:text-[48px] leading-[130%]">

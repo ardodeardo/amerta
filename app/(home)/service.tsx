@@ -70,9 +70,12 @@ function Service() {
                       <Baby size={24}></Baby>
                     </>
                   ),
-                  title: <>Baby & Kids Treatment</>,
+                  title: <>Mom & Kids Treatment</>,
                   description: (
-                    <>Terapi yang mendukung perkembangan motorik anak.</>
+                    <>
+                      Terapi untuk ibu selama kehamilan & pasca melahirkan serta
+                      anak pasca cedera dan peningkatan fungsi.
+                    </>
                   ),
                 },
               ] as Array<{
