@@ -5,13 +5,11 @@ function Method() {
         <div className="relative z-10 px-4 md:px-12 pt-10 pb-25 md:py-16 space-y-8 bg-white rounded-t-[24px] md:rounded-xl">
           <div className="text-center">
             <span className="text-[#0B6F68] font-extrabold text-xs">
-              FISIOTERAPI PERSONAL
+              PROSES FISIOTERAPI
             </span>
 
             <h2 className="text-[#123331] font-bold text-[28px] md:text-[40px] leading-[130%] mt-1">
-              Kurangi nyeri. <br />
-              Pulihkan gerak. <br />
-              Kembali beraktivitas.
+              Bagaimana proses fisioterapi di Amerta?
             </h2>
 
             <p className="text-[#123331] text-base md:text-lg leading-[160%] mt-4">
@@ -24,33 +22,32 @@ function Method() {
             {(
               [
                 {
-                  title: <>Evaluasi Fungsional</>,
+                  title: <>Reservasi</>,
+                  description: (
+                    <>Hubungi Amerta melalui WhatsApp dan tentukan jadwal.</>
+                  ),
+                },
+                {
+                  title: <>Assessment</>,
                   description: (
                     <>
-                      Mengidentifikasi hambatan gerak dan kebutuhan pemulihan
-                      Anda.
+                      Fisioterapis memahami keluhan dan melakukan pemeriksaan.
                     </>
                   ),
                 },
                 {
-                  title: <>Terapi Manual</>,
-                  description: (
-                    <>Mengurangi nyeri dan meningkatkan mobilitas tubuh.</>
-                  ),
-                },
-                {
-                  title: <>Latihan Terarah</>,
-                  description: (
-                    <>Membangun kekuatan dan fungsi gerak secara bertahap.</>
-                  ),
-                },
-                {
-                  title: <>Strategi Pemulihan</>,
+                  title: <>Treatment</>,
                   description: (
                     <>
-                      Membantu Anda tetap aktif dan bergerak dengan percaya
-                      diri.
+                      Pendekatan terapi disesuaikan dengan kondisi dan kebutuhan
+                      pasien.
                     </>
+                  ),
+                },
+                {
+                  title: <>Progress</>,
+                  description: (
+                    <>Perkembangan dievaluasi dan program disesuaikan.</>
                   ),
                 },
               ] as Array<{

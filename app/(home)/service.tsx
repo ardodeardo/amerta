@@ -1,6 +1,6 @@
 import React from "react";
 
-import { HandHeart, House, SportShoe, Baby } from "lucide-react";
+import { HandHeart, House, SportShoe, SmilePlus } from "lucide-react";
 
 function Service() {
   return (
@@ -13,16 +13,14 @@ function Service() {
             </span>
 
             <h2 className="text-[#123331] font-bold text-[28px] md:text-[40px] leading-[130%] mt-1">
-              Pilih layanan yang <br />
-              disesuaikan dengan <br />
-              kebutuhan Anda.
+              Pilih layanan yang disesuaikan dengan kebutuhan Anda.
             </h2>
 
-            <p className="text-[#123331] text-base md:text-lg leading-[160%] mt-4">
+            {/* <p className="text-[#123331] text-base md:text-lg leading-[160%] mt-4">
               Membantu mengurangi nyeri, memulihkan gerak,{" "}
               <br className="hidden md:block" />
               dan mendukung aktivitas sehari-hari.
-            </p>
+            </p> */}
           </div>
 
           <div className="grid grid-cols-2 gap-3 md:gap-4">
@@ -34,22 +32,11 @@ function Service() {
                       <HandHeart size={24}></HandHeart>
                     </>
                   ),
-                  title: <>Fisioterapi</>,
-                  description: (
-                    <>Penanganan nyeri, cedera, dan keterbatasan gerak.</>
-                  ),
-                },
-                {
-                  icon: (
-                    <>
-                      <House size={24}></House>
-                    </>
-                  ),
-                  title: <>Home Treatment</>,
+                  title: <>Pain Relief</>,
                   description: (
                     <>
-                      Perawatan fisioterapi profesional tanpa perlu keluar
-                      rumah.
+                      Membantu mengurangi nyeri dan meningkatkan kenyamanan
+                      bergerak.{" "}
                     </>
                   ),
                 },
@@ -59,22 +46,40 @@ function Service() {
                       <SportShoe size={24}></SportShoe>
                     </>
                   ),
-                  title: <>Sport Massage</>,
+                  title: <>Sports Recovery</>,
                   description: (
-                    <>Membantu pemulihan otot dan menjaga performa aktivitas.</>
+                    <>
+                      Mendukung pemulihan cedera dan membantu Anda kembali
+                      beraktivitas dan berolahraga.
+                    </>
                   ),
                 },
                 {
                   icon: (
                     <>
-                      <Baby size={24}></Baby>
+                      <SmilePlus size={24}></SmilePlus>
                     </>
                   ),
-                  title: <>Mom & Kids Treatment</>,
+                  title: <>Senior Mobility</>,
                   description: (
                     <>
-                      Terapi untuk ibu selama kehamilan & pasca melahirkan serta
-                      anak pasca cedera dan peningkatan fungsi.
+                      Membantu lansia meningkatkan kekuatan, keseimbangan, dan
+                      kemampuan bergerak secara mandiri.
+                    </>
+                  ),
+                },
+                {
+                  icon: (
+                    <>
+                      <House size={24}></House>
+                    </>
+                  ),
+                  title: <>Home Care</>,
+                  description: (
+                    <>
+                      Fisioterapi langsung di rumah bagi pasien yang membutuhkan
+                      pendampingan dengan keterbatasan mobilitas atau kondisi
+                      tertentu.
                     </>
                   ),
                 },
