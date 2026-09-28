@@ -25,23 +25,21 @@ function Hero() {
             className="image--desktop w-full h-full object-cover hidden md:block"
           ></Image>
         </picture>
-        <div className="absolute top-0 left-0 w-full h-full bg-black/25 z-10"></div>
+        <div className="absolute top-0 left-0 w-full h-full bg-black/45 z-10"></div>
 
         <div className="relative z-10 md:px-12 pt-16 pb-32 md:py-16 md:rounded-xl space-y-8">
           <div className="space-y-4">
             <span className="rounded-full border border-[#0B6F68]/12 w-fit p-[10px] px-3 flex items-center justify-between gap-[6px] bg-[#E7F4F0] text-xs font-bold text-[#123331]">
-              <Activity size={12}></Activity>{" "}
-              <span>Partner Perjalanan Rehabilitasimu</span>
+              <Activity size={12}></Activity> <span>FISIOTERAPI PERSONAL</span>
             </span>
 
             <h1 className="text-white font-bold text-[36px] md:text-[48px] leading-[130%]">
-              Pulih lebih nyaman, bergerak lebih percaya diri.
+              Pulih lebih nyaman, kembali beraktivitas.
             </h1>
 
             <p className="text-white text-base md:text-lg leading-[160%]">
-              Pendampingan fisioterapi personal untuk membantu mengurangi nyeri,
-              memulihkan gerak, dan mendukung <br className="hidden md:block" />{" "}
-              aktivitas sehari-hari.
+              Pendampingan fisioterapi untuk membantu mengurangi nyeri,
+              memulihkan gerak, dan mendukung aktivitas sehari-hari.
             </p>
           </div>
 
@@ -58,7 +56,7 @@ function Hero() {
                 height={20 * 2}
                 className="size-4 md:size-5"
               ></Image>{" "}
-              Buat Janji Konsultasi
+              Reservasi Fisioterapi
             </Link>
 
             <Link
@@ -68,6 +66,10 @@ function Hero() {
               Lihat Layanan
             </Link>
           </div>
+
+          <p className="text-white text-lg font-medium leading-[160%]">
+            • Pain Relief • Sports Recovery • Senior Mobility • Home Care
+          </p>
         </div>
       </div>
     </section>

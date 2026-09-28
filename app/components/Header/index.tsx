@@ -33,7 +33,7 @@ function Header() {
               height={20 * 2}
               className="size-4 md:size-5"
             ></Image>{" "}
-            Buat Janji Konsultasi
+            Reservasi Fisioterapi
           </Link>
         </div>
       </div>
